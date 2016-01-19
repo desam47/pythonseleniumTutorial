@@ -1,0 +1,29 @@
+Xpath writing standards
+
+//tagname[@attribute='value']
+
+
+copy the text related to elemant of login button of facebook
+<input id="u_0_l" type="submit" tabindex="4" value="Log In"/>
+
+Tagname =input
+
+Attributes:
+id = u_0_l
+type = submit
+tabindex = 4
+value = Log In
+
+#customized xpath
+
+//input[@id='u_0_l']
+
+#replace tagname with * for using any tag name
+
+//*[@id='u_0_l']
+
+#xpath for email or phone
+
+<input id="email" class="inputtext" type="email" tabindex="1" value="" name="email"/>
+
+//input[@id='email']

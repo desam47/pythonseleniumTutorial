@@ -1,0 +1,7 @@
+ CSS syntax
+ 
+ Tagname[attribute='value']
+ 
+ <input id="u_0_l" type="submit" tabindex="4" value="Log In">
+ 
+ input[value='Log In']
